@@ -32,6 +32,7 @@ public class Main {
             }
         }
         SplitToFiles.splitFile("C:\\הדסים\\תרגיל בית\\time_series.csv");
+        SplitToFiles.splitFile("C:\\הדסים\\תרגיל בית\\time_series (4).parquet");
         List<String> fileNames = Arrays.asList(
                 "C:\\הדסים\\תרגיל בית\\ExercisePart2TimeSeries\\file_date_2025-06-01.cvs",
                 "C:\\הדסים\\תרגיל בית\\ExercisePart2TimeSeries\\file_date_2025-06-02.cvs",
