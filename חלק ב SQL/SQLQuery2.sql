@@ -75,12 +75,6 @@ from Persons AS s1 join Persons AS s2
 
 
 
---Update person
---Set Spouse_Id = other.Person_Id
---from Person AS person
---Join Person AS other ON other.Spouse_Id = person.Person_Id
---Where person.Spouse_Id is null
-
 UPDATE p
 SET p.Spouse_Id = r.Person_Id
 FROM Persons p
